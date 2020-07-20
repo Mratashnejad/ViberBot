@@ -25,7 +25,7 @@ SECRET_KEY = '0alfd)7*=5p6y2xvj=ybxtn^39#w9e#c30)15g#@qpw-)1%$uq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myviberbot',
 ]
 
 MIDDLEWARE = [
